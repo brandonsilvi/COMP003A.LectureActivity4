@@ -12,5 +12,14 @@ class Program
             Console.WriteLine($"Task #{taskNumber} completed");
             taskNumber++;
         }
+        //Do While Loops
+        int attempt = 1;
+        do
+        {
+            Console.WriteLine($"Attempt {attempt}");
+            attempt++;
+            
+        } 
+        while (attempt <= 3);
     }
 }
