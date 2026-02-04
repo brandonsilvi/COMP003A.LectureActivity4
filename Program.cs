@@ -1,6 +1,8 @@
 ﻿using System;
 
 class Program
+
+namespace COMP003A.LectureActivity4
 {
     static void Main()
     {
