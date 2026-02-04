@@ -31,10 +31,10 @@ class Program
 
         while (number <= 6)
         {
-            number++;
             //skip values @ and after 4
             if (number == 4)
             {
+                number++;
                 continue;
             }
             //exit loop @ 6
@@ -44,6 +44,7 @@ class Program
             }
 
             Console.WriteLine(number);
+            number++;
         }
 
     }
