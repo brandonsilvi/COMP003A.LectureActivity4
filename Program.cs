@@ -49,3 +49,16 @@ class Program
 
     }
 }
+
+/*
+ Reflection: 
+ I found the for loop to be the easiest to 
+ understand since its entirely defined in one segment
+ 
+ The while loop with the break and continue was the hardest
+ to trace since the conditions change the execution
+ 
+ The comments help break up the sections and understand what 
+ goes where. They help a lot for a 3rd party to understand 
+ reasons for the presented code. 
+*/
