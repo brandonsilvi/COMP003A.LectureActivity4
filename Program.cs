@@ -26,6 +26,25 @@ class Program
         {
             Console.WriteLine($"step {i}");
         }
-        
+        //loop control
+        int number = 1;
+
+        while (number <= 6)
+        {
+            number++;
+            //skip values @ and after 4
+            if (number == 4)
+            {
+                continue;
+            }
+            //exit loop @ 6
+            if (number == 6)
+            {
+                break;
+            }
+
+            Console.WriteLine(number);
+        }
+
     }
 }
